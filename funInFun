@@ -1,0 +1,39 @@
+
+
+function say(something){
+
+console.log(something);
+}
+
+
+function exec(func, arg) {
+	func(arg);
+}
+
+//say(); 
+exec(say, 'This, is Creative Connect');
+
+
+
+// Function in function
+
+exec((something) => {
+
+console.log(something);
+}, 'This, is Creative Connect');
+
+
+
+//set Timeout
+
+window.setTimeout((something) => {
+
+console.log(something);
+}, 5000,'This, is Creative Connect');
+
+
+
+// Event Listener 
+target.addEventListener(type, listener[, options]); 
+
+
